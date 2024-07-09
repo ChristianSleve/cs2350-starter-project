@@ -1,3 +1,39 @@
 /* Your styles go here */
 @import url("bootstrap/dist/css/bootstrap.min.css");
 @import url("bootstrap-icons/font/bootstrap-icons.css");
+
+body {
+    width: 80%;
+    margin: 0px,auto;
+    display: flex;
+    flex-flow: column;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+}
+.Canvas2D {
+
+    margin: 0 80px ;
+    background: lightgray;
+    height: 800px;
+    width: 800px;
+    float: left;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    line-height: 3rem;
+    border: 2px solid black;
+}
+
+.button{
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: lightcoral;
+    padding:0 15px;
+    border-radius: 15px;
+}
