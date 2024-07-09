@@ -3,21 +3,26 @@
 @import url("bootstrap-icons/font/bootstrap-icons.css");
 
 body {
-    width: 80%;
-    margin: 0px,auto;
+    width: 100%;
     display: flex;
+    align-items: center;
     flex-flow: column;
 }
 .container{
     display: flex;
     flex-flow: row;
+    justify-content: space-evenly;
+}
+
+h1 {
+    margin: 60px, 0;
 }
 .Canvas2D {
 
     margin: 0 80px ;
     background: lightgray;
     height: 800px;
-    width: 800px;
+    width: 900px;
     float: left;
 }
 
@@ -25,12 +30,14 @@ form {
     width: 100%;
     display: flex;
     flex-flow: column;
+    align-items: center;
     justify-content: space-between;
-    line-height: 3rem;
+    line-height: 4rem;
     border: 2px solid black;
 }
 
 .button{
+    margin: 15px;
     font-weight: bold;
     font-size: 2rem;
     background-color: lightcoral;
